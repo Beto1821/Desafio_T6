@@ -48,5 +48,7 @@ public class Desafio {
                 System.out.println("Valor depositado com sucesso o seu Saldo atual é de " + saldo);
             }
         }
+        input.close();   
     }
 }
+
