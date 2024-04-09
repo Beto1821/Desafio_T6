@@ -47,6 +47,11 @@ public class Desafio {
                 saldo += valorDeposito;
                 System.out.println("Valor depositado com sucesso o seu Saldo atual é de " + saldo);
             }
+            if (opcao < 1 || opcao > 4) {
+                System.out.println("Opção inválida");
+            }
         }
+        input.close();   
     }
 }
+
